@@ -4,10 +4,12 @@ const Sidebar = () => {
 
   return (
     <div className='SideBar'>
-      <ul>
+      <ul className="SideBarList">
         {SideBarData.map((val, key) => {
           return (
-            <li key={key} onClick={() => {window.location.pathname = val.link}}>
+            <li key={key} 
+            className="row"
+            onClick={() => {window.location.pathname = val.link}}>
               {" "}
               <div>
                 {val.title}

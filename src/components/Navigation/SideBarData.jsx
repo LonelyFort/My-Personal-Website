@@ -1,9 +1,5 @@
 export const SideBarData = [
     {
-        title: "Home",
-        link: "/"
-    },
-    {
         title: "About",
         link: "/about"
     },

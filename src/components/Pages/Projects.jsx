@@ -6,7 +6,10 @@ export default function Projects() {
     return(
         <div className="Projects">
             <h1>Projects</h1>
-            <h2>as you can see it is barren, like my life</h2>
+            <div>
+                <h1>Project 1</h1>
+                <p>a short description of the project</p>
+            </div>
             <button onClick={() => navigate("/contactme")}>
                 {" "}
                 Go to my Contacts
