@@ -17,7 +17,7 @@ body {
 
 .SideBar {
   height: 800px;
-  width: 120px;
+  width: 150px;
   background-color: yellow;
 }
 
@@ -35,6 +35,11 @@ body {
 }
 
 /* About CSS */
+/* Contact Me Css */
+
+.ContactMe {
+
+}
 
 
 

@@ -1,4 +1,4 @@
-import { useNavigate, Link } from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 
 export default function ContactMe() {
     const navigate = useNavigate();
@@ -6,12 +6,12 @@ export default function ContactMe() {
     return(
         <div className="ContactMe">
             <h1>Contact Meeeeeee</h1>
-            <div>
-                <Link to={{ pathname: "https://github.com/LonelyFort"}} target="_blank">My GitHub</Link>
-            </div>
-            <div>
-                <Link to={{ pathname: "linkedin.com/in/liu-yu-wei-b182a52ab"}} target="_blank">My LinkedIn</Link>
-            </div>
+            <p>
+                <a href="https://github.com/LonelyFort" target="_blank" rel="noopener noreferrer">My GitHub</a>
+            </p>
+            <p>
+                <a href="https://linkedin.com/in/liu-yu-wei-b182a52ab" target="_blank" rel="noopener noreferrer">My LinkedIn</a>
+            </p>
             <div>
             <button onClick={() => navigate("/")}>
                 {" "}
