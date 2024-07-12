@@ -1,8 +1,4 @@
-import { useNavigate} from "react-router-dom";
-
-export default function ContactMe() {
-    const navigate = useNavigate();
-    
+export default function ContactMe() {    
     return(
         <div className="ContactMe">
             <h1>Contact Meeeeeee</h1>
@@ -12,12 +8,6 @@ export default function ContactMe() {
             <p>
                 <a href="https://linkedin.com/in/liu-yu-wei-b182a52ab" target="_blank" rel="noopener noreferrer">My LinkedIn</a>
             </p>
-            <div>
-            <button onClick={() => navigate("/")}>
-                {" "}
-                Back to Home
-            </button>
-            </div>
         </div>
     );
 }

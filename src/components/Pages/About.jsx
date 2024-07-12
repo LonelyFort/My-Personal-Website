@@ -1,18 +1,13 @@
-import { useNavigate } from "react-router-dom";
-
 export default function About() {
-    const navigate = useNavigate();
-
     return (
         <div className="About">
             <div className="self-intro">
                 <h1>This will be about me</h1>
-                <h2>put pic here lol</h2>
+                <div className="techstack">
+                    This will be my teckstack
+                </div>
             </div>
-            <button onClick={() => navigate("/projects")}>
-                {" "}
-                Go to Projects
-            </button>
+            <h2>put pic here lol</h2>
         </div>
     );
 }

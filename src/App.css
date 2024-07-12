@@ -11,49 +11,89 @@ body {
   height: 100%;
 }
 
-/* Home styling */
-.TopLayout {
-  display: flex;
-}
-
-/* SideBar Styling */
-
-.SideBar {
-  height: 800px;
-  width: 150px;
-  border: 1px solid black;
-  background-color: white;
-}
-
-.SideBarList {
-  height: auto;
-  padding: 0;
-  width: 100%
-}
-
-.SideBarList .row {
-  height: 50px;
-  width: 100%;
-  border: 1px solid black;
-  list-style-type: none;
-}
-
 .HomePage {
   height: 800px;
   width: 100%;
-  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   border: 1px solid black;
   background-color: white;
 }
 
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.about-me-button {
+  background-color: #e7e7e7; color: black;
+  font-size: 18px;
+  border-radius: 12px;
+  padding: 24px 12px;
+}
+
+.contacts-button {
+  background-color: #e7e7e7; color: black;
+  font-size: 18px;
+  border-radius: 12px;
+  padding: 24px 12px;
+}
+
+/* Projects Styling */
 .ProjectPanel {
-  height: 500px;
+  height: 400px;
   width: 100%;
-  border: 1px solid black;
   background-color: white;
+}
+
+.project-container {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.panel {
+  width: 1200px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.project-box {
+  width: 1800px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  background-color: white;
+}
+
+.box {
+  width: 200px;
+  height: 350px;
+  display: flex;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
 }
 
 /* About styling */
+.About {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.techstack {
+  border: 1px solid black;
+  background-color: white;
+  box-shadow: gray;
+}
+
 /* Contact Me styling */
 
 .ContactMe {
