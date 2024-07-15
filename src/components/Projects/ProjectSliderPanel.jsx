@@ -9,13 +9,13 @@ export default function ProjectSliderPanel() {
 
     return (
         <div className="ProjectPanel">
-            <h1>My Work</h1>
+            <h1 className="Title">My Work</h1>
             <div className="project-container">
                 <div className="panel" ref={containerRef}>
                     <div className="project-box">
-                        {ProjectsData.map((item) => (
-                            <div className="box" onClick={() => window.location.pathname = item.link}>
-                                <p>{item.project}</p>
+                        {ProjectsData.map((item, key) => (
+                            <div key={key} className="box" onClick={() => window.location.pathname = item.link}>
+                                <img src={item.photo} height="350px" width="200px" alt="test"/>
                             </div>
                         ))}
                     </div>

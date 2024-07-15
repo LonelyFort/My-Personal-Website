@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  color: black;
-  background-color: white;
+  color: white;
+  background-color: #4b5563;
 }
 
 /* App styling */
@@ -20,6 +20,7 @@ body {
   flex-direction: column;
   border: 1px solid black;
   background-color: white;
+  color: black;
 }
 
 .buttons {
@@ -44,21 +45,23 @@ body {
 
 /* Projects Styling */
 .ProjectPanel {
-  height: 400px;
+  height: 470px;
   width: 100%;
-  background-color: white;
+}
+
+.Title {
+  margin-top: auto;
 }
 
 .project-container {
-  height: 350px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
 }
 
 .panel {
-  width: 1200px;
+  width: 2300px;
   overflow-x: scroll;
   scroll-behavior: smooth;
 }
@@ -68,7 +71,6 @@ body {
   display: flex;
   align-items: center;
   gap: 100px;
-  background-color: white;
 }
 
 .box {
@@ -78,20 +80,40 @@ body {
   border: 1px solid black;
   align-items: center;
   justify-content: center;
-  background-color: blue;
+  background-color: white;
 }
 
 /* About styling */
 .About {
+  height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
+.self-intro {
+  font-size: x-large;
+}
+
 .techstack {
-  border: 1px solid black;
-  background-color: white;
-  box-shadow: gray;
+  /* border: 1px solid black; */
+  height: 502px;
+  width: 400px;
+}
+
+.techstack img {
+  height: 20%;
+  width: 20%;
+}
+
+.pfp-div {
+  
+}
+
+.PFP {
+  height: 400px;
+  width: 500px;
 }
 
 /* Contact Me styling */

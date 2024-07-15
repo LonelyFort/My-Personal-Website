@@ -1,7 +1,9 @@
+import TestImages from "./PNG_transparency_demonstration_1.png"
+
 export const ProjectsData = [
-    {project: "project 1", link: "/projects"},
-    {project: "project 2", link: "/projects"},
-    {project: "project 3", link: "/projects"},
-    {project: "project 4", link: "/projects"},
-    {project: "project 5", link: "/projects"},
+    {photo: TestImages, link: "/projects"},
+    {photo: TestImages, link: "/projects"},
+    {photo: TestImages, link: "/projects"},
+    {photo: TestImages, link: "/projects"},
+    {photo: TestImages, link: "/projects"},
 ];
