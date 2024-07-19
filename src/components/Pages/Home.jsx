@@ -14,7 +14,7 @@ export default function Home() {
                             {" "}
                             About Me
                         </button>
-                        <button className="contacts-button" onClick={() => navigate("/contactme")}>
+                        <button className="contacts-button" onClick={() => navigate("/socials")}>
                             {" "}
                             My Socials
                         </button>

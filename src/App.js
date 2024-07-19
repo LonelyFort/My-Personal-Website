@@ -1,6 +1,6 @@
 import Home from "./components/Pages/Home";
 import About from "./components/Pages/About";
-import ContactMe from "./components/Pages/ContactMe";
+import Socials from "./components/Pages/Socials";
 import Projects from "./components/Pages/Projects";
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import "./App.css";
@@ -14,7 +14,7 @@ function App() {
               <Route path="/" element={<Home/>} />
               <Route path="/about" element={<About/>} />
               <Route path="/projects" element={<Projects/>} />
-              <Route path="/contactme" element={<ContactMe/>} />
+              <Route path="/socials" element={<Socials/>} />
             </Routes>
           </Router>
       </div>

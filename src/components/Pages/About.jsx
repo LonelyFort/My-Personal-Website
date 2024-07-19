@@ -7,7 +7,10 @@ import Telegram from "./logos/telegram.svg"
 import AE from "./logos/adobe-after-effects.svg"
 import PS from "./logos/adobe-photoshop.svg"
 import Premiere from "./logos/adobe-premiere.svg"
+import HTML from "./logos/html-5.svg"
+import CSS from "./logos/css-3.svg"
 import PFP from "./PFP.png";
+
 
 export default function About() {
     return (
@@ -25,10 +28,12 @@ export default function About() {
                     <img src={Java} alt="java"/>
                     <img src={CPP} alt="C++"/>
                     <img src={JS} alt="JS"/>
-                    <p>Frameworks</p>
+                    <p>Tools & Frameworks</p>
                     <img src={ReactLogo} alt="react"/>
                     <img src={Vercel} alt="vercel"/>
                     <img src={Telegram} alt="telegram"/>
+                    <img src={HTML} alt="html"/>
+                    <img src={CSS} alt="css"/>
                     <p>Design</p>
                     <img src={AE} alt="AE"/>
                     <img src={PS} alt="PS"/>
