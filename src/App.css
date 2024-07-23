@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  color: white;
-  background-color: #4b5563;
+  color: black;
+  background-color: 	#f6eee3
 }
 
 /* App styling */
@@ -11,16 +11,13 @@ body {
   height: 100%;
 }
 
+/* HomePage styling */
 .HomePage {
-  height: 800px;
-  width: 100%;
+  height: 1000px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 1px solid black;
-  background-color: white;
-  color: black;
 }
 
 .buttons {
@@ -43,8 +40,52 @@ body {
   padding: 24px 12px;
 }
 
+/* Navbar styling */
+.navbar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 20px 36px;
+}
+
+.home-img {
+  width: 40px;
+  filter: invert(33%) sepia(74%) saturate(324%) hue-rotate(356deg) brightness(93%) contrast(89%);
+}
+
+.links, .language {
+  margin: 0;
+  color: #795C32;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-grow: 1;
+  flex-basis: auto;
+  padding: 1px 20px;
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.link {
+  margin: 10px;
+  font-family: Khula, sans-serif;
+  text-decoration: none;
+}
+
+.link:visited {
+  text-decoration: none;
+  color: #795C32;
+}
+
+
 /* Projects Styling */
-.ProjectPanel {
+/* .ProjectPanel {
   height: 470px;
   width: 100%;
 }
@@ -54,14 +95,14 @@ body {
 }
 
 .project-container {
-  height: 500px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .panel {
-  width: 2300px;
+  width: 2100px;
   overflow-x: scroll;
   scroll-behavior: smooth;
 }
@@ -81,12 +122,11 @@ body {
   align-items: center;
   justify-content: center;
   background-color: white;
-}
+} */
 
 /* About styling */
-.About {
-  height: 100%;
-  width: 100%;
+
+.about {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
