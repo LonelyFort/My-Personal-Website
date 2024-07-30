@@ -1,0 +1,31 @@
+{
+    "nav" : {
+        "about" : "about",
+        "work" : "work",
+        "projects" : "projects" 
+    },
+
+    "home" : {
+        "title" : "Hi, I am Jeff",
+        "self-intro" : "and welcome to my space."
+
+    },
+
+    "about" : {
+        "title" : "About Me",
+        "self-intro" : "National University of Singapore Student. Year 2. Studying Computer Science.",
+        "self-intro2" : "Favourite past-time: screwing around with stuff to find out about stuff.",
+        "programming-lang" : "Programming Languages",
+        "tools" : "Programming Languages",
+        "design" :"Design" 
+
+    },
+
+    "experience" : {
+
+    },
+
+    "projects" : {
+
+    }
+}

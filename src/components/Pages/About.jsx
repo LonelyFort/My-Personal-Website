@@ -21,9 +21,9 @@ export default function About() {
                 <div className="self-intro">
                     <h1>About Me</h1>
                     <p>National University of Singapore student. Year 2. Studying 
-                        Computer Science (Hons.).
-                    </p>
-                    <p>Favourite past-time: screwing around with stuff to find out about 
+                        Computer Science (Hons.). 
+                        <br/>
+                        Favourite past-time: screwing around with stuff to find out about 
                         stuff. 
                     </p>
                     <div className="techstack">

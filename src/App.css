@@ -20,26 +20,6 @@ body {
   flex-direction: column;
 }
 
-.buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: space-between;
-}
-
-.about-me-button {
-  background-color: #e7e7e7; color: black;
-  font-size: 18px;
-  border-radius: 12px;
-  padding: 24px 12px;
-}
-
-.contacts-button {
-  background-color: #e7e7e7; color: black;
-  font-size: 18px;
-  border-radius: 12px;
-  padding: 24px 12px;
-}
-
 /* Navbar styling */
 .navbar {
   height: 50px;
@@ -81,6 +61,22 @@ body {
 .link:visited {
   text-decoration: none;
   color: #795C32;
+}
+
+.ext-link-and-language {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.ext-link-and-language img {
+  width: 40px;
+  filter: invert(33%) sepia(74%) saturate(324%) hue-rotate(356deg) brightness(93%) contrast(89%);
+}
+
+.nav_button {
+  background-color: transparent;
+  border: none;
 }
 
 
@@ -156,13 +152,23 @@ body {
   width: 500px;
 }
 
-/* Contact Me styling */
+/* Contact Me styling
 
-.Socials {
-
+.Socials img {
+  width: 80px;
 }
 
+.socials-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
 
+.nav_button {
+  background-color: transparent;
+  border: none;
+}
+ */
 
 
 
