@@ -1,12 +1,6 @@
 {
-    "nav" : {
-        "about" : "about",
-        "work" : "work",
-        "projects" : "projects" 
-    },
 
     "home" : {
-        "title" : "Hi, I am Jeff",
         "self-intro" : "and welcome to my space."
 
     },

@@ -1,0 +1,25 @@
+{
+
+    "home" : {
+        "self-intro" : "欢迎来到我的网站"
+
+    },
+
+    "about" : {
+        "title" : "关于我",
+        "self-intro" : "现读新加坡国立大学学生。二年级。专攻电脑科学系。",
+        "self-intro2" : "我的喜好：尝试新鲜事来去了解新鲜事",
+        "programming-lang" : "程式语言",
+        "tools" : "工具库",
+        "design" :"创意工具" 
+
+    },
+
+    "experience" : {
+
+    },
+
+    "projects" : {
+
+    }
+}
