@@ -6,12 +6,12 @@
     },
 
     "about" : {
-        "title" : "About Me",
-        "self-intro" : "National University of Singapore Student. Year 2. Studying Computer Science.",
-        "self-intro2" : "Favourite past-time: screwing around with stuff to find out about stuff.",
-        "programming-lang" : "Programming Languages",
-        "tools" : "Programming Languages",
-        "design" :"Design" 
+        "title" : "自己紹介",
+        "self-intro" : "シンガポール国立大学に在学しています。2年生です。コンピューター科学専攻しています。",
+        "self-intro2" : "趣味： 新しいものを試して学んでいる",
+        "programming-lang" : "プログラム言語",
+        "tools" : "工具やフレームワーク",
+        "design" :"デザイン" 
 
     },
 

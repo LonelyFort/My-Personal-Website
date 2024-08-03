@@ -11,33 +11,35 @@ import Premiere from "./logos/adobe-premiere.svg"
 import HTML from "./logos/html-5.svg"
 import CSS from "./logos/css-3.svg"
 import PFP from "./assets/PFP.png";
+import { useTranslation } from "react-i18next";
 
 
 export default function About() {
+    // eslint-disable-next-line
+    const [t, i18n] = useTranslation();
+
     return (
         <div>
             <Navbar/>
             <div className="about">
                 <div className="self-intro">
-                    <h1>About Me</h1>
-                    <p>National University of Singapore student. Year 2. Studying 
-                        Computer Science (Hons.). 
+                    <h1>{t("about.title")}</h1>
+                    <p>{t("about.self-intro")}
                         <br/>
-                        Favourite past-time: screwing around with stuff to find out about 
-                        stuff. 
+                        {t("about.self-intro2")}
                     </p>
                     <div className="techstack">
-                        <p>Programming Languages</p>
+                        <p>{t("about.programming-lang")}</p>
                         <img src={Java} alt="java"/>
                         <img src={CPP} alt="C++"/>
                         <img src={JS} alt="JS"/>
-                        <p>Tools & Frameworks</p>
+                        <p>{t("about.tools")}</p>
                         <img src={ReactLogo} alt="react"/>
                         <img src={Vercel} alt="vercel"/>
                         <img src={Telegram} alt="telegram"/>
                         <img src={HTML} alt="html"/>
                         <img src={CSS} alt="css"/>
-                        <p>Design</p>
+                        <p>{t("about.design")}</p>
                         <img src={AE} alt="AE"/>
                         <img src={PS} alt="PS"/>
                         <img src={Premiere} alt="premiere"/>
