@@ -47,7 +47,6 @@ export default function About() {
                 </div>
                 <div className="pfp-div">
                     <img className="PFP" src={PFP} alt="PFP"/>
-                    <footer> image taken from @gobou0san from YT </footer>
                 </div>
             </div>
         </div>
