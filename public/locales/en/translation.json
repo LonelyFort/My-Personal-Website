@@ -1,14 +1,16 @@
 {
 
     "home" : {
-        "self-intro" : "and welcome to my space."
+        "self-intro" : "I am a front-end developer/graphic designer"
 
     },
 
     "about" : {
         "title" : "About Me",
-        "self-intro" : "National University of Singapore Student. Year 2. Studying Computer Science (Hons.).",
-        "self-intro2" : "Favourite past-time: screwing around with stuff to find out about stuff.",
+        "self-intro" : "Hello! I'm Jeff Liu Yu-Wei, a Computer Science student at the National University of Singapore.",
+        "self-intro2" : "I have experience in the front end development and I am currently expanding my skill set by working on personal projects that integrate both front-end and back-end technologies.",
+        "self-intro3" : "In my free time, I am also taking on coding challenges to improve on my coding skills. Beyond programming, I am exploring the creative worlds of graphic design and 3D modeling, with aspirations to dive into VR and AR in the near future.",
+        "self-intro4" : "I am fluent in 3 languages: English, Chinese and Japanese (JLPT (Japanese Level Proficiency Test) N2 certified)), and I am ambitiously working towards achieving JLPT N1.",
         "programming-lang" : "Programming Languages",
         "tools" : "Programming Languages",
         "design" :"Design" 

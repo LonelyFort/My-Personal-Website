@@ -1,1 +1,1 @@
-Building my personal website while learning React. Work in Progress (Last update 01 August 2024)
+Building my personal website while learning React. Work in Progress (Last update 12 August 2024)

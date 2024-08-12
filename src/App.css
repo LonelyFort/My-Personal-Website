@@ -2,7 +2,10 @@ body {
   margin: 0;
   padding: 0;
   color: black;
-  background-color: 	#f6eee3
+  background-color: 	#f6eee3;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* App styling */
@@ -148,9 +151,14 @@ body {
   font-size: x-large;
 }
 
+.self-intro-paragraph {
+  width: 45rem;
+}
+
 .techstack {
   height: 502px;
   width: 400px;
+  
 }
 
 .techstack img {

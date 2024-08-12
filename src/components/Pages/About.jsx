@@ -24,22 +24,24 @@ export default function About() {
             <div className="about">
                 <div className="self-intro">
                     <h1>{t("about.title")}</h1>
-                    <p>{t("about.self-intro")}
-                        <br/>
-                        {t("about.self-intro2")}
-                    </p>
+                    <div className="self-intro-paragraph">
+                        <p>{t("about.self-intro")}</p>
+                        <p>{t("about.self-intro2")}</p>
+                        <p>{t("about.self-intro3")}</p>
+                        <p>{t("about.self-intro4")}</p>
+                    </div>
                     <div className="techstack">
-                        <p>{t("about.programming-lang")}</p>
+                        <h3>{t("about.programming-lang")}</h3>
                         <img src={Java} alt="java"/>
                         <img src={CPP} alt="C++"/>
                         <img src={JS} alt="JS"/>
-                        <p>{t("about.tools")}</p>
+                        <h3>{t("about.tools")}</h3>
                         <img src={ReactLogo} alt="react"/>
                         <img src={Vercel} alt="vercel"/>
                         <img src={Telegram} alt="telegram"/>
                         <img src={HTML} alt="html"/>
                         <img src={CSS} alt="css"/>
-                        <p>{t("about.design")}</p>
+                        <h3>{t("about.design")}</h3>
                         <img src={AE} alt="AE"/>
                         <img src={PS} alt="PS"/>
                         <img src={Premiere} alt="premiere"/>
