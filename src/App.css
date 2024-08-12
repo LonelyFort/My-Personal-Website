@@ -41,7 +41,7 @@ body > #root > div {
 }
 
 .HomePage :is(h1, h3) {
-  margin-right: 30rem;
+  margin-right: rem;
 }
 
 
