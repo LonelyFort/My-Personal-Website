@@ -37,8 +37,8 @@ export default function Navbar() {
                 </a>
                 <Dropdown buttonText="EN" content={
                     <>
-                        {Languages.map((item) => (
-                            <DropdownItem key={item} 
+                        {Languages.map((item, key) => (
+                            <DropdownItem key={key} 
                             onClick={() => handleChangeLang(item.language_code)}>
                                 {item.language}
                             </DropdownItem>

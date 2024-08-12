@@ -1,4 +1,6 @@
 body {
+  height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   color: black;
@@ -8,6 +10,10 @@ body {
   font-style: normal;
 }
 
+body > #root > div {
+  height: 100vh;
+}
+
 /* App styling */
 .App {
   width: 100%;
@@ -15,13 +21,29 @@ body {
 }
 
 /* HomePage styling */
-.HomePage {
-  height: 1000px;
+.Home {
   display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.HomePage {
+  height: 100%;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: left;
 }
+
+.HomePage :is(h1, h3) {
+  margin-right: 30rem;
+}
+
 
 /* Navbar styling */
 .navbar {
@@ -85,6 +107,9 @@ body {
 .dropdown {
   position: relative;
   margin-top: 138px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .dropdown-btn {
@@ -156,8 +181,8 @@ body {
 }
 
 .techstack {
-  height: 502px;
-  width: 400px;
+  height: 31.375rem;
+  width: 25rem;
   
 }
 
@@ -221,7 +246,7 @@ body {
 }
 
 .project-media {
-  width: 25rem;
+  width: 35rem;
   
 }
 
