@@ -21,6 +21,7 @@ body > #root > div {
 }
 
 /* HomePage styling */
+
 .Home {
   display: flex;
   flex-direction: column;
@@ -37,24 +38,64 @@ body > #root > div {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  text-align: left;
+  
 }
 
-.HomePage :is(h1, h3) {
-  margin-right: rem;
+.nav-animation {
+  opacity: 0;
+}
+
+.start-nav-animation {
+  animation: fadeInDown;
+  animation-duration: 2s;
+  opacity: 1;
+}
+
+.homepage-text {
+  margin-top: -75rem;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2rem;
+}
+
+.homepage-title {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  opacity: 0;
+}
+
+.homepage-subtitle {
+  font-family: "Moderustic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  opacity: 0;
+}
+
+.start-home-animation {
+  animation: fadeIn;
+  animation-duration: 2s;
+  opacity: 1;
 }
 
 
 /* Navbar styling */
 .navbar {
-  height: 50px;
+  height: 100px;
   display: flex;
   align-items: center;
   padding: 20px 36px;
 }
 
 .home-img {
-  width: 40px;
+  width: 60px;
   filter: invert(33%) sepia(74%) saturate(324%) hue-rotate(356deg) brightness(93%) contrast(89%);
 }
 
@@ -67,7 +108,7 @@ body > #root > div {
   flex-basis: auto;
   padding: 1px 20px;
   margin-right: auto;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 600;
   color: #795C32;
   text-align: center;
@@ -94,7 +135,7 @@ body > #root > div {
 }
 
 .ext-link-and-language img {
-  width: 40px;
+  width: 60px;
   filter: invert(33%) sepia(74%) saturate(324%) hue-rotate(356deg) brightness(93%) contrast(89%);
 }
 
@@ -121,7 +162,7 @@ body > #root > div {
   box-shadow: rgba(149,157,165, 0.2)
   0px 8px 24px;
   color: #795C32;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
   cursor: pointer;
 }
@@ -250,5 +291,13 @@ body > #root > div {
   
 }
 
+/* Experience Styling */
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-size: x-large;
+  margin-left: 3rem;
+}
 
 
