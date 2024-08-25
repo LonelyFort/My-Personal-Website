@@ -30,6 +30,7 @@ body > #root > div {
 }
 
 .HomePage {
+  position: relative;
   height: 100%;
   display: flex;
   flex-grow: 1;
@@ -52,7 +53,7 @@ body > #root > div {
 }
 
 .homepage-text {
-  margin-top: -75rem;
+  position: absolute;
   display: flex;
   flex-grow: 1;
   flex-shrink: 1;
@@ -76,7 +77,6 @@ body > #root > div {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  opacity: 0;
 }
 
 .start-home-animation {
